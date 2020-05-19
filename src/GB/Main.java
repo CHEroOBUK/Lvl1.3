@@ -10,7 +10,7 @@ public class Main {
         int chooseGame;
         int again = 1;
         while (again != 2){
-            System.out.println("Доступно две игры: 1 - Угадай число, 2 - Угадай слово");
+            System.out.println(" Доступно две игры: 1 - Угадай число, 2 - Угадай слово");
             System.out.print("Введите номер игры, в которую хотите сыграть (1 или 2): ");
             chooseGame = check12(scanner.nextInt());
             if ((chooseGame == 1)) {

@@ -22,10 +22,11 @@ public class Main {
             again = check12(scanner.nextInt());
             System.out.println();
         }
+        scanner.close();
     }
 
     static void gameNumbers(){
-        int hidden = (int) (Math.random() * 9);
+        int hidden = (int) (Math.random() * 10);
         int guess;
         System.out.println("Компьютер загадал число от 0 до 9, попробуйте угадать с 3х попыток:");
         for (int i = 0; i < 3; i++){
